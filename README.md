@@ -23,12 +23,13 @@ sbt new oorahdev/play-scala-seed.g8
   - Prometheus metrics
   
 ### Use
- - This will compile the binaries,generate beautiful swagger documentation, create docker image and container and push to Aws Ecr
+ - This will compile the binaries , generate beautiful swagger documentation, create docker image and container and push to Aws Ecr
  
 ```bash
 sbt clean compile swagger docker:publishLocal ecr:push
 ```
 
-
+Thought of something you would like to add ?
+Create a Pull request
   
 
