@@ -22,6 +22,10 @@ sbt new oorahdev/play-scala-seed.g8
   - Logger
   - Prometheus metrics
   
+- Libraries
+  - Jtds for sql connections -1.3.1
+  - 
+  
 ### Use
  - This will compile the binaries , generate beautiful swagger documentation, create docker image and container and push to Aws Ecr
  
