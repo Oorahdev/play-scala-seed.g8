@@ -10,12 +10,14 @@ If you want to create a project:
 ```bash
 sbt new oorahdev/play-scala-seed.g8
 ```
-### WHY?
+### Features?
 
 - Plugins
   - Play plugin
   - Docker plugin
   - Ecr plugin
+  - Swagger plugin
+  - Scalafmt plugin
 - Filters
   - Logger
   - Prometheus metrics
