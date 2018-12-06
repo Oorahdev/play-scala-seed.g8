@@ -22,4 +22,12 @@ sbt new oorahdev/play-scala-seed.g8
   - Logger
   - Prometheus metrics
   
+### Use
+ 
+```bash
+sbt clean compile swagger docker:publishLocal ecr:push
+```
+
+
+  
 
