@@ -14,6 +14,7 @@ libraryDependencies ++= Seq( jdbc , ehcache , ws , specs2 % Test , guice )
 libraryDependencies += "com.github.stijndehaes" %% "play-prometheus-filters" % "0.4.0"
 
 
+libraryDependencies += "org.webjars" % "swagger-ui" % "3.20.3"
 // https://mvnrepository.com/artifact/net.sourceforge.jtds/jtds
 libraryDependencies += "net.sourceforge.jtds" % "jtds" % "1.3.1"
 
